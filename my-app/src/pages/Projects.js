@@ -7,16 +7,24 @@ const projectsArray = [
     name: 'Project 1',
     description: 'This is a description of project 1.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    demoLink: 'http://demo.project1.com',
-    codeLink: 'http://github.com/project1',
+    demoLink: 'https://github.com/TeonaZ/BlackJack-Game',
+    codeLink: 'https://github.com/TeonaZ/BlackJack-Game',
   },
   {
     id: 2,
     name: 'Project 2',
     description: 'This is a description of project 2.',
     technologies: ['React', 'Node.js', 'MongoDB'],
-    demoLink: 'http://demo.project2.com',
+    demoLink: 'https://github.com/TeonaZ/BlackJack-Game',
     codeLink: 'http://github.com/project2',
+  },
+  {
+    id: 3,
+    name: 'Project 3',
+    description: 'This is a description of project 3.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    demoLink: 'http://demo.project1.com',
+    codeLink: 'http://github.com/project3',
   },
   // Add more projects here
 ];

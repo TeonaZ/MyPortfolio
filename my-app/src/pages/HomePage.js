@@ -1,13 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Button from "react-bootstrap/esm/Button";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
 
 
 const HomePage = () => {
     return (
-        <div className="home-container">
+        <div className="home">
+            <Container>
+        <Row className='flex-column-reverse flex-lg-row'>
+          <Col className='home-content text-lg-start text-center'></Col>
             <header className="home-header">
                 <h1>Welcome to My Portfolio</h1>
-                <p>I'm Teona Zaalishvili, a [Your Profession] based in [Your Location].</p>
+                <p>I'm Teona Zaalishvili,I’m a full-stack software engineer with a passion for empathy and a love for understanding how businesses can deliver greater value to
+              the people they serve. </p>
             </header>
             <section className="intro">
                 <p>
@@ -16,11 +24,14 @@ const HomePage = () => {
                     and what I can do!
                 </p>
             </section>
-            <nav className="home-nav">
-                <Link to="/about">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-            </nav>
+            <div className='' style={{ display: "inline-block" }}>
+                <Button href={"https://github.com/TeonaZ?tab=repositories"} className='custom-btn'>
+                  Github
+                </Button>
+              </div>
+              </Row>
+      </Container>
+             
         </div>
     );
 };

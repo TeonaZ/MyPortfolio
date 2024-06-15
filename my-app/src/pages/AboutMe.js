@@ -22,8 +22,7 @@ const AboutMe = () => {
               <Heading title='About Me' />
             </div>
             <p className='sub-heading'>
-              I’m a full-stack software engineer with a passion for empathy and a love for understanding how businesses can deliver greater value to
-              the people they serve.
+            Highly skilled and results-oriented Software Engineer with over 2 years of experience in developing and managing web applications. Proficient in a wide array of technologies including JavaScript, TypeScript, Node.js, React, SQL, MongoDB, and HTML/CSS. Demonstrated expertise in utilizing Quality Center and Selenium for test automation, and JIRA for efficient project management within AGILE frameworks. Adept at designing and testing APIs with Postman and maintaining robust version control using Git/GitHub. Strong background in cybersecurity, with a proven track record of implementing best practices to ensure application security and integrity. Excellent problem-solving abilities and a collaborative team player, committed to continuous learning and improvement.
             </p>
             <ListGroup>
               <ListGroup.Item className='d-flex align-items-center'>
